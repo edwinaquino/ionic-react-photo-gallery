@@ -1,0 +1,34 @@
+/* This file is used by tab1.tsx for styling*/
+.App {
+  text-align: center;
+}
+/* Display a large camera icon */
+.App-logo {
+  height: 100vmin;
+  pointer-events: none;
+  color: #fff;
+}
+.App-logo-icon {
+    font-size: 100px;
+  }
+.App-header {
+  background: rgb(76, 49, 162);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 4vmin);
+  color: white;
+  background: linear-gradient(
+    180deg,
+    rgba(76, 49, 162, 1) 0%,
+    rgb(247, 234, 252) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.App-link {
+  color: #1f07aa;
+  text-decoration: none;
+}
+
